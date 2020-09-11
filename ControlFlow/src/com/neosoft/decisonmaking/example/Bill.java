@@ -14,8 +14,8 @@ public class Bill extends InputData {
 		try {
 		for(int i=0;i<n;i++)
 		{
-			System.out.println(itemOrdered.elementAt(i)+"      "+priceOrdered.elementAt(i)+"      "+quantityOrdered.elementAt(i)+"        "+pri.get(i));
-			total+=pri.elementAt(i);
+			System.out.println(itemOrdered.get(i)+"      "+priceOrdered.get(i)+"      "+quantityOrdered.get(i)+"        "+pri.get(i));
+			total+=pri.get(i);
 		}
 		}
 		catch(ArrayIndexOutOfBoundsException e) {
